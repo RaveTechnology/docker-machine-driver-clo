@@ -1,0 +1,1 @@
+Initial public Linux/amd64 Rancher Node Driver. Includes deterministic archive, SHA256SUMS and ready-to-review NodeDriver manifest. Tested Rancher2.15.3/RKE2. Production migration is separate; CSI/UI are separate products. Apache-2.0.

@@ -1,0 +1,15 @@
+apiVersion: management.cattle.io/v3
+kind: NodeDriver
+metadata:
+  name: clo
+  annotations:
+    privateCredentialFields: apiToken
+    publicCredentialFields: ""
+    passwordFields: apiToken
+    nodedriver.cattle.io/file-to-field-aliases: userDataFile:userDataFile
+spec:
+  active: true
+  displayName: clo
+  # Replace both values with your immutable, reachable artifact and SHA256.
+  url: https://artifacts.example.invalid/clo-linux-amd64.tar.gz
+  checksum: REPLACE_WITH_SHA256

@@ -1,0 +1,5 @@
+CLO integrations
+Copyright 2026 Rave Technology and contributors.
+
+This project was developed for rave-technology. Third-party dependencies retain their
+own copyright notices and licenses. See go.mod/go.sum or package.json/yarn.lock.

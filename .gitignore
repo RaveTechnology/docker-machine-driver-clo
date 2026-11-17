@@ -1,0 +1,11 @@
+
+/bin/
+/dist/
+/_site/
+/pages-output/
+/.venv/
+__pycache__/
+*.pyc
+.env
+*.pem
+*.key

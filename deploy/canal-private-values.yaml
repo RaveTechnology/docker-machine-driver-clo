@@ -1,0 +1,12 @@
+# Merge under spec.rkeConfig.chartValues in a Rancher provisioning Cluster.
+# Verified with Rancher 2.15.3 / RKE2 v1.36.5+rke2r1 / Flannel v0.28.9.
+# Set the gateway to the private project network returned by CLO API.
+# Keep the stock arguments from the exact installed Canal chart when upgrading.
+rke2-canal:
+  flannel:
+    args:
+      - --ip-masq
+      - --kube-subnet-mgr
+      - --iptables-forward-rules=false
+      - --ip-blackhole-route
+      - --iface-can-reach=10.174.80.1
