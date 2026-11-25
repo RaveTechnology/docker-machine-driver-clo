@@ -3,7 +3,7 @@ module github.com/RaveTechnology/docker-machine-driver-clo
 go 1.27.0
 
 require (
-	github.com/RaveTechnology/clo-cloud-go v0.1.0
+	github.com/RaveTechnology/clo-cloud-go v0.1.1
 	github.com/rancher/machine v0.15.0-rancher145.3
 	gopkg.in/yaml.v3 v3.0.1
 )
